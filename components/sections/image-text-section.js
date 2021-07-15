@@ -26,7 +26,7 @@ function SectionImgText(props) {
           </div>
         </div>
         <div className="text-col">
-          <h4>{props.title}</h4>
+          <h3>{props.title}</h3>
           <p>{props.description}</p>
           <Btn
             title={props.btntitle}

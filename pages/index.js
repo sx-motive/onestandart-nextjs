@@ -54,6 +54,7 @@ export default function Home() {
                 data-scroll
                 data-scroll-speed="-1"
                 src="/images/svg-1.png"
+                alt="работа в такси"
               />
             </div>
             <h5>Быстрый старт</h5>
@@ -72,6 +73,7 @@ export default function Home() {
                 data-scroll
                 data-scroll-speed="-1"
                 src="/images/svg-2.png"
+                alt="работа в такси"
               />
             </div>
             <h5>Много заказов</h5>
@@ -90,6 +92,7 @@ export default function Home() {
                 data-scroll
                 data-scroll-speed="-1"
                 src="/images/svg-3.png"
+                alt="работа в такси"
               />
             </div>
             <h5>Аренда автомобиля</h5>

@@ -6,7 +6,7 @@ function Header() {
     <header data-scroll-section>
       <div className="container">
         <Link href="/">
-          <a class="logo -skewlogo" aria-label="onestandart">
+          <a className="logo -skewlogo" aria-label="onestandart">
             <span data-text="Твой таксопарк">Onestandart</span>
           </a>
         </Link>

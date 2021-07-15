@@ -11,7 +11,7 @@
   --p-fs: 18px;
   --h1-fs: 1rem;
   --h2-fs: 3.8rem;
-  --h3-fs: 3rem;
+  --h3-fs: 2.5rem;
   --h4-fs: 3rem;
   --h5-fs: 1.7rem;
   --h6-fs: 1rem;
@@ -676,10 +676,6 @@ section.title h1 {
 .img-text {
   background-color: var(--white);
   padding: 20vh 0 0 0;
-}
-
-.img-text h3 {
-  font-size: 2rem;
 }
 
 .img-text .container {
