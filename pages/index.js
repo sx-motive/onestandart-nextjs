@@ -46,7 +46,7 @@ export default function Home() {
         <div className="container">
           <div className="we-do-box">
             <div className="img-wrap">
-              <img
+              <Image
                 loading="eager"
                 data-cursor-text="Explore service"
                 data-cursor="-color-accent-lilac"
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className="we-do-box">
             <div className="img-wrap">
-              <img
+              <Image
                 loading="eager"
                 data-cursor-text="Explore service"
                 data-cursor="-color-accent-lilac"
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
           <div className="we-do-box">
             <div className="img-wrap">
-              <img
+              <Image
                 loading="eager"
                 data-cursor-text="Explore service"
                 data-cursor="-color-accent-lilac"

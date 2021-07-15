@@ -27,7 +27,7 @@ function SectionPrefooter() {
         </div>
         <div className="prefooter-col">
           <div className="img-wrap">
-            <img
+            <Image
               loading="eager"
               data-cursor-text="Explore service"
               data-cursor="-color-accent-lilac"
