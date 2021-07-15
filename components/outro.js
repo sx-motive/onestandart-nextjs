@@ -1,3 +1,4 @@
+import Link from "next/link";
 function Outro() {
   return (
     <section data-scroll-section className="outro">
@@ -18,11 +19,13 @@ function Outro() {
         </div>
         <div className="outro-bottom">
           <div className="outro-bottom-left">
-            <a href="/" className="btn -underline -skew">
-              <span data-text="Development and promotion by Denis Kunitsyn">
-                Development and promotion by Denis Kunitsyn
-              </span>
-            </a>
+            <Link href="https://motive.cafe">
+              <a className="btn -underline -skew">
+                <span data-text="Development and promotion by Denis Kunitsyn">
+                  Development and promotion by Denis Kunitsyn
+                </span>
+              </a>
+            </Link>
           </div>
           <div className="outro-bottom-right">
             <ul>

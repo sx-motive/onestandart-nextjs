@@ -20,9 +20,11 @@ function Menu() {
     <>
       <div id="menu" className="menu">
         <header data-scroll-section className="header">
-          <a className="logo toggle-logo" aria-label="motive" href="/">
-            motive
-          </a>
+          <Link href="/">
+            <a className="logo toggle-logo" aria-label="motive">
+              motive
+            </a>
+          </Link>
         </header>
 
         <div className="menu-wrapper">

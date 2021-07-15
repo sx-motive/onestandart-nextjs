@@ -37,6 +37,7 @@ const Tutorials = ({ tutorials }) => {
                 data-cursor-text="Explore tutorial"
                 data-cursor="-color-accent-lilac"
                 src={tutorial.image}
+                alt="Работа в такси"
               />
             </div>
             <div className="tag-wrap">
