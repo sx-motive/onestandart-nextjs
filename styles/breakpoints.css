@@ -1,0 +1,274 @@
+@media screen and (max-width: 1460px) {
+  :root {
+    --p-fs: 22px;
+    --h1-fs: 5rem;
+    --h2-fs: 4.5rem;
+    --h3-fs: 3rem;
+    --h4-fs: 3rem;
+    --h5-fs: 2rem;
+    --h6-fs: 1rem;
+  }
+
+  .container {
+    max-width: 1020px;
+  }
+
+  .wrapper {
+    max-width: 780px;
+  }
+
+  .menu-toggle {
+    margin: 15px 0;
+  }
+
+  .menu .menu-wrapper-bg,
+  .menu .menu-wrapper {
+    width: 750px;
+  }
+
+  /* tutorials layout */
+
+  .tutorials-wrap {
+    padding: 60px 60px;
+  }
+  .tutorials .tutorials-item {
+    position: relative;
+    width: 33%;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  :root {
+    --p-fs: 20px;
+    --h1-fs: 5rem;
+    --h2-fs: 4.5rem;
+    --h3-fs: 3rem;
+    --h4-fs: 3rem;
+    --h5-fs: 2rem;
+    --h6-fs: 1rem;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 80px;
+  }
+  .img-split .img-split-wrap {
+    margin: 20px 0;
+    height: 650px;
+  }
+  .default {
+    padding: 150px 0 150px 0;
+  }
+  /* tutorials layout */
+  .tutorials-wrap {
+    padding: 60px 60px;
+  }
+  .tutorials .tutorials-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  :root {
+    --p-fs: 18px;
+    --h2-fs: 3rem;
+    --h3-fs: 2rem;
+    --h4-fs: 2rem;
+    --h5-fs: 1.5rem;
+    --h6-fs: 1rem;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 35px;
+  }
+
+  header {
+    padding: 35px 35px 0 35px;
+  }
+
+  .title {
+    min-height: 65vh;
+  }
+
+  .img-full {
+    height: 50vh;
+  }
+
+  .img-split .img-split-wrap {
+    height: 450px;
+  }
+
+  .menu .logo {
+    top: 35px;
+    left: 35px;
+  }
+
+  .toggle-wrap {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 95px;
+    width: 80px;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu .menu-wrapper-bg,
+  .menu .menu-wrapper {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .menu-main {
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .menu-col-title {
+    margin-bottom: 20px;
+  }
+  .menu-col {
+    padding: 0;
+  }
+  .menu-col:nth-child(2) {
+    margin: 0 0 40px 0;
+    width: 100%;
+  }
+  .menu-col:nth-child(1) {
+    width: 100%;
+  }
+  .social-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .social-list li {
+    margin: 0 20px 0 0;
+  }
+  .menu-footer {
+    padding: 30px 35px 35px 35px;
+  }
+
+  .motive-call-to {
+    right: 20px;
+    bottom: 20px;
+    height: 75px;
+    width: 75px;
+  }
+
+  .img-split .img-split-left {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .img-split .img-split-right {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .outro {
+    height: 100%;
+    min-height: 460px;
+  }
+  .outro .container {
+    min-height: 400px;
+  }
+
+  .outro .outro-top span {
+    font-size: 2.5rem;
+    letter-spacing: -0.04rem;
+  }
+  .outro .outro-bottom {
+    justify-content: flex-start;
+    font-size: 0.6rem;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .outro .outro-bottom li {
+    margin: 0 20px 20px 0;
+  }
+  .outro .outro-bottom ul {
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+
+  .steps .steps-wrap {
+    -webkit-column-count: 2;
+    column-count: 2;
+    margin-top: 100px;
+    list-style: disc outside none;
+    list-style: initial;
+  }
+
+  .steps .steps-item {
+    font-size: 0.85rem;
+    margin: 0 0 35px 0;
+    counter-reset: cb-listing-ol;
+    list-style: initial;
+    padding-left: 10px;
+    width: 80%;
+  }
+
+  /* text default layout */
+
+  .text {
+    padding: 15vh 0;
+  }
+
+  /* text split 30/70 */
+
+  .text-split {
+    padding: 15vh 0 5vh 0;
+  }
+
+  .text-split .text-split-left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .text-split .text-split-right {
+    position: relative;
+    width: 100%;
+  }
+
+  /* tutorials layout */
+  .tutorials-wrap {
+    padding: 60px 35px;
+  }
+  .tutorials .tutorials-item {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+
+  /* image text section split */
+
+  .img-text.-reverse .container {
+    flex-direction: row;
+  }
+
+  .img-text.-reverse .img-col {
+    padding: 0 0 0 0;
+  }
+
+  .img-text .img-col {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+
+  .img-text .text-col {
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .img-text .img-split-wrap {
+    min-height: 40vh;
+  }
+}
