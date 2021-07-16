@@ -33,9 +33,11 @@ function Nav() {
         </Link>
       </li>
       <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
-        <a className="btn -skew" href="#">
-          <span data-text="Аренда авто">Аренда авто</span>
-        </a>
+        <Link href="/arenda">
+          <a className="btn -skew" href="#">
+            <span data-text="Аренда авто">Аренда авто</span>
+          </a>
+        </Link>
       </li>
       <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
         <Link href="/tutorials">

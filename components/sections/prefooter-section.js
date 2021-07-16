@@ -24,6 +24,10 @@ function SectionPrefooter() {
               </div>
             </a>
           </form>
+          <span className="privacy">
+            Отправляя заявку, вы соглашаетесь с условиями Политики обработки
+            персональных данных и Пользовательского соглашения
+          </span>
         </div>
         <div className="prefooter-col">
           <div className="img-wrap">

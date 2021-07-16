@@ -4,13 +4,15 @@ function About() {
       <section data-scroll-section className="text">
         <div className="container">
           <div className="wrapper">
-            <h3>Denis Kunitsyn</h3>
+            <h3>Автопарк “СТАНДАРТ”</h3>
             <p>
-              From the moment our company was founded, we have helped our
-              clients find exceptional solutions for their businesses , creating
-              memorable brands and digital products. Our expertise grows with
-              each year, and our accumulated experience empowers us to develop
-              products exactly as they should be.
+              Автопарк “СТАНДАРТ”- сертифицированный партнер Яндекс.Такси. Мы
+              подключаем водителей к сервису, обучаем работе с приложением и
+              консультируем во всем вопросам, возникающим на всех этапах работы.
+              Хотите работать в такси, но не хотите использовать свой
+              автомобиль? В нашем автопарке вы можете арендовать брендированный
+              автомобиль, на бензине, или на газу. Так же у нас, вы можете
+              забрендировать свой автомобиль, или взять в аренду детское кресло.
             </p>
           </div>
         </div>
