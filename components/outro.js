@@ -18,7 +18,33 @@ function Outro() {
           </div>
           <div className="outro-col">
             <h5>Навигация по сайту</h5>
-            <Nav />
+            <ul>
+              <li>
+                <Link href="/">
+                  <a className="btn -underline">Главная</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="btn -underline">О компании</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="btn -underline">Аренда авто</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="btn -underline">Работа в такси</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="btn -underline">Контакты</a>
+                </Link>
+              </li>
+            </ul>
           </div>
           <div className="outro-col">
             <h5>Контакты</h5>

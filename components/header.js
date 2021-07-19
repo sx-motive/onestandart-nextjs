@@ -4,14 +4,12 @@ import Nav from "./nav";
 function Header() {
   return (
     <header data-scroll-section>
-      <div className="container">
-        <Link href="/">
-          <a className="logo -skewlogo" aria-label="onestandart">
-            <span data-text="Твой таксопарк">Onestandart</span>
-          </a>
-        </Link>
-        <Nav />
-      </div>
+      <Link href="/">
+        <a className="logo -skewlogo" aria-label="onestandart">
+          <span data-text="Твой таксопарк">Onestandart</span>
+        </a>
+      </Link>
+      <Nav />
     </header>
   );
 }

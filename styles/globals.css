@@ -2,7 +2,7 @@
 
 :root {
   /* colors */
-  --theme-color: #000;
+  --theme-color: rgb(69, 31, 238);
   --black: #000;
   --white: #fff;
   --dark: #111;
@@ -11,7 +11,7 @@
   --p-fs: 18px;
   --h1-fs: 1rem;
   --h2-fs: 3.8rem;
-  --h3-fs: 2.5rem;
+  --h3-fs: 3rem;
   --h4-fs: 3rem;
   --h5-fs: 1.7rem;
   --h6-fs: 1rem;
@@ -80,7 +80,7 @@ section {
 }
 
 .wrapper {
-  max-width: 710px;
+  max-width: 810px;
 }
 
 h1 {
@@ -113,7 +113,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Activist", sans-serif;
   margin: 1.5rem 0 3rem 0;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -124,6 +124,8 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  font-family: "Activist", sans-serif;
+  font-weight: 300;
 }
 
 li {
@@ -180,8 +182,8 @@ header .container {
 
 header ul {
   display: flex;
-
-  margin-top: 6px;
+  margin-top: 8px;
+  margin-right: 100px;
 }
 
 header ul li {
@@ -250,8 +252,8 @@ header ul li {
   right: 0;
   height: 100vh;
   width: 900px;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--theme-color);
+  color: var(--white);
   transform: translate(100%, 0px);
   transition: all 0.59s cubic-bezier(0.28, 0.81, 0.43, 0.97);
   padding-bottom: 150px;
@@ -399,6 +401,50 @@ section.page h1 {
   font-size: 3rem;
 }
 
+/* text scroll section */
+
+.text-scroll {
+  position: relative;
+  margin: 20vh 0 5vh 0;
+}
+
+.text-scroll-wrap {
+  position: relative;
+  top: 0;
+  left: -40%;
+  width: 180%;
+}
+
+.text-scroll-wrap span {
+  display: block;
+  position: relative;
+  font-size: 5vw;
+  font-family: "Activist", sans-serif;
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+  margin-bottom: 10px;
+  line-height: 0.6;
+  opacity: 0.4;
+}
+
+/* auto section */
+
+section.auto {
+  margin: 30vh 0 10vh 0;
+  background-color: #111;
+  color: #fff;
+  padding: 20vh 0;
+}
+
+section.auto .container {
+  position: relative;
+}
+
+.auto .auto-col-one {
+  position: relative;
+  width: 25%;
+}
+
 /* prefooter section */
 
 section.prefooter {
@@ -476,7 +522,7 @@ section.we-do .img-wrap {
   position: relative;
   overflow: hidden;
   padding: 20px 20px 20px 0;
-  height: 400px;
+  height: 500px;
 }
 
 section.we-do .we-do-box {
@@ -619,6 +665,11 @@ section.we-do img {
   display: flex;
 }
 
+.outro .outro-top ul a {
+  font-family: "Gilroy", sans-serif;
+  font-size: 0.8rem;
+}
+
 .outro .outro-top span {
   font-size: 0.8rem;
   letter-spacing: -0.04rem;
@@ -754,6 +805,16 @@ section.title h1 {
 .img-text .img-split-wrap {
   position: relative;
   min-height: 60vh;
+}
+
+.img-text .img-split-wrap::before {
+  position: absolute;
+  left: -40px;
+  top: -40px;
+  width: 100%;
+  height: calc(100% - 40px);
+  background-color: rgb(247, 247, 247);
+  content: "";
 }
 
 .img-text img {

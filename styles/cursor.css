@@ -211,11 +211,11 @@
 }
 
 .-color-accent-lilac {
-  color: #dfb8ae;
+  color: #2e2beb;
 }
 
 .-color-accent-lilac-bg {
-  background: #dfb8ae;
+  background: #2b28ce;
 }
 
 /* Cursor CSS */
@@ -257,7 +257,7 @@
   transform: scale(0) rotate(10deg);
   opacity: 0;
   color: white;
-  font-size: 0.55rem;
+  font-size: 0.7rem;
   line-height: 20px;
   text-align: center;
   letter-spacing: -0.01em;

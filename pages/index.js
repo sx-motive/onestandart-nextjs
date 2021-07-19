@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <SectionText
-        title="Работа для водителя такси в Оренбурге"
+        title="Работа для водителей такси в Оренбурге"
         description="Автопарк “СТАНДАРТ” приглашает на работу водителей такси, как на личном авто, так и автомобили компании. Мы гарантируем выгодные условия аренды и  высокий зароботок. Оставьте заявку и менеджер перезвонит Вам."
         btntitle="Оставить заявку"
         link="/contacts"
@@ -27,6 +27,28 @@ export default function Home() {
         img="/images/03.png"
         reverse
       />
+
+      <section data-scroll-section className="text-scroll">
+        <div className="text-scroll-wrap">
+          <span
+            data-scroll
+            data-scroll-speed="-2"
+            data-scroll-direction="horizontal"
+          >
+            Таксопарк стандарт - Аренда автомобиля - Работа для водителей в
+            такси
+          </span>
+
+          <span
+            data-scroll
+            data-scroll-speed="2"
+            data-scroll-direction="horizontal"
+          >
+            Аренда автомобиля - Работа для водителей в такси - Таксопарк
+            стандарт
+          </span>
+        </div>
+      </section>
 
       <SectionImgText
         title="Преимущества работы с нами"
@@ -49,6 +71,21 @@ export default function Home() {
         btnlink="/contacts"
         img="/images/04.jpg"
       />
+
+      <section data-scroll-section className="auto">
+        <div className="container">
+          <div className="auto-col-one">
+            <h3>Автомобили в аренду</h3>
+            <p>
+              Взять автомобиль в аренду, дешевле и быстрее, чем покупать новый.
+              ТО и обслуживание- ответственность парка. Чтобы взять автомобиль в
+              аренду, оставьте заявку на сайте, или позвоните нам.
+            </p>
+          </div>
+          <div className="auto-col-two"></div>
+        </div>
+      </section>
+
       <section data-scroll-section className="we-do">
         <div className="container">
           <h3>Возможности и условия</h3>
