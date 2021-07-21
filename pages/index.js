@@ -6,6 +6,7 @@ import SectionImgText from "../components/sections/image-text-section";
 import SectionImgFull from "../components/sections/image-full-section";
 import SectionText from "../components/sections/text-section";
 import SectionPrefooter from "../components/sections/prefooter-section";
+import Carousel from "../components/carousel";
 
 export default function Home() {
   return (
@@ -82,7 +83,9 @@ export default function Home() {
               аренду, оставьте заявку на сайте, или позвоните нам.
             </p>
           </div>
-          <div className="auto-col-two"></div>
+          <div className="auto-col-two">
+            <Carousel />
+          </div>
         </div>
       </section>
 

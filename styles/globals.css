@@ -67,6 +67,18 @@ body {
   color: var(--black);
 }
 
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%; /* Each slide covers 80% of the viewport */
+}
+.embla__slide {
+  flex: 0 0 200px; /* Slide covers 200px of the viewport */
+}
+
 section {
   position: relative;
   width: 100%;
@@ -438,11 +450,22 @@ section.auto {
 
 section.auto .container {
   position: relative;
+  display: flex;
 }
 
 .auto .auto-col-one {
   position: relative;
   width: 25%;
+}
+
+.auto .auto-col-two {
+  position: relative;
+  width: 75%;
+}
+
+.auto .embla-img-wrap {
+  height: 600px;
+  width: 300px;
 }
 
 /* prefooter section */
