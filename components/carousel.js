@@ -27,14 +27,14 @@ function Carousel() {
           <h3>Лада Калина</h3>
         </div>
 
-        <div class="embla__slide">
+        <div className="embla__slide">
           <div className="embla-img-wrap">
             <Image src={Pic2} alt="Датсун" />
           </div>
           <h3>Датсун</h3>
         </div>
 
-        <div class="embla__slide">
+        <div className="embla__slide">
           <div className="embla-img-wrap">
             <Image
               src={Pic3}
@@ -54,14 +54,14 @@ function Carousel() {
           <h3>Лада Калина</h3>
         </div>
 
-        <div class="embla__slide">
+        <div className="embla__slide">
           <div className="embla-img-wrap">
             <Image src={Pic2} alt="Датсун" />
           </div>
           <h3>Датсун</h3>
         </div>
 
-        <div class="embla__slide">
+        <div className="embla__slide">
           <div className="embla-img-wrap">
             <Image
               src={Pic3}
