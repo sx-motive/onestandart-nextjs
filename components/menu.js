@@ -22,7 +22,7 @@ function Menu() {
         <header data-scroll-section className="header">
           <Link href="/">
             <a className="logo toggle-logo" aria-label="motive">
-              motive
+              onestantart
             </a>
           </Link>
         </header>
@@ -80,10 +80,18 @@ function Menu() {
           <div className="menu-footer">
             <div className="contact">
               <div className="menu-col-title">
-                <span>Напишите мне</span>
+                <span>Напишите нам</span>
               </div>
               <a className="btn -underlined" href="#">
-                info@motive.cafe
+                office@onestantart.ru
+              </a>
+            </div>
+            <div className="contact">
+              <div className="menu-col-title">
+                <span>Телефон</span>
+              </div>
+              <a className="btn -underlined" href="#">
+                +7 (950) 188-84-44
               </a>
             </div>
           </div>

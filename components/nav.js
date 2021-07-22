@@ -18,28 +18,28 @@ function Nav() {
 
   return (
     <ul>
-      <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
+      <li onClick={closeMenu} data-cursor="-opaque">
         <Link href="/">
           <a className="btn -skew">
             <span data-text="Главная">Главная</span>
           </a>
         </Link>
       </li>
-      <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
+      <li onClick={closeMenu} data-cursor="-opaque">
         <Link href="/about">
           <a className="btn -skew">
             <span data-text="О компании">О компании</span>
           </a>
         </Link>
       </li>
-      <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
+      <li onClick={closeMenu} data-cursor="-opaque">
         <Link href="/arenda">
           <a className="btn -skew" href="#">
             <span data-text="Аренда авто">Аренда авто</span>
           </a>
         </Link>
       </li>
-      <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
+      <li onClick={closeMenu} data-cursor="-opaque">
         <Link href="/tutorials">
           <a className="btn -skew">
             <span data-text="Работа в такси">Работа в такси</span>
@@ -47,7 +47,7 @@ function Nav() {
         </Link>
       </li>
 
-      <li onClick={closeMenu} data-magnetic data-cursor="-opaque">
+      <li onClick={closeMenu} data-cursor="-opaque">
         <a className="btn -skew" href="#">
           <span data-text="Контакты">Контакты</span>
         </a>

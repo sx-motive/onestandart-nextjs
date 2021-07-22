@@ -2,17 +2,17 @@
 
 :root {
   /* colors */
-  --theme-color: rgb(69, 31, 238);
+  --theme-color: rgb(0, 17, 255);
   --black: #000;
   --white: #fff;
   --dark: #111;
   --light: #f7f7f7;
   /* font's sizes */
-  --p-fs: 18px;
+  --p-fs: 17px;
   --h1-fs: 1rem;
-  --h2-fs: 3.8rem;
-  --h3-fs: 3rem;
-  --h4-fs: 3rem;
+  --h2-fs: 4.5rem;
+  --h3-fs: 4rem;
+  --h4-fs: 4rem;
   --h5-fs: 1.7rem;
   --h6-fs: 1rem;
 }
@@ -65,18 +65,6 @@ body {
 
   background-color: var(--white);
   color: var(--black);
-}
-
-.embla {
-  overflow: hidden;
-}
-.embla__container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 80%; /* Each slide covers 80% of the viewport */
-}
-.embla__slide {
-  flex: 0 0 200px; /* Slide covers 200px of the viewport */
 }
 
 section {
@@ -145,8 +133,9 @@ li {
 }
 
 p {
-  line-height: 1.5;
-  margin: 1rem 0 2rem;
+  line-height: 1.8rem;
+  margin: 0.5rem 0 2rem;
+  letter-spacing: 0.025rem;
 }
 
 ul {
@@ -240,7 +229,7 @@ header ul li {
 .menu .logo {
   position: fixed;
   top: 60px;
-  left: 60px;
+  left: 100px;
 }
 
 .menu .menu-wrapper {
@@ -248,12 +237,12 @@ header ul li {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 900px;
+  width: 100%;
   background-color: transparent;
   color: var(--black);
   transform: translate(100%, 0px);
   transition: all 0.5s cubic-bezier(0.28, 0.81, 0.43, 0.97);
-  padding-bottom: 150px;
+  padding-bottom: 80px;
   will-change: all;
   z-index: 2;
 }
@@ -263,9 +252,8 @@ header ul li {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 900px;
-  background-color: var(--theme-color);
-  color: var(--white);
+  width: 100%;
+  background-color: var(--white);
   transform: translate(100%, 0px);
   transition: all 0.59s cubic-bezier(0.28, 0.81, 0.43, 0.97);
   padding-bottom: 150px;
@@ -287,12 +275,14 @@ header ul li {
   position: relative;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .menu-main {
   position: relative;
   padding: 0 80px;
   display: flex;
+  width: 100%;
 }
 
 .menu-col {
@@ -306,22 +296,23 @@ header ul li {
   margin-bottom: 50px;
 }
 .menu-col:nth-child(1) {
-  width: 30%;
+  width: 20%;
 }
 
 .menu-col:nth-child(2) {
-  margin: 0 0 0 150px;
-  width: 70%;
+  margin: 0 0 0 0;
+  width: 60%;
+  text-align: center;
 }
 
 .menu .social-list li a {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   padding: 15px 0;
   font-weight: 500;
 }
 
 .menu .nav-list li {
-  font-size: 2.3rem;
+  font-size: 3.5rem;
   font-weight: 500;
   letter-spacing: -0.05rem;
   line-height: 1.15;
@@ -341,8 +332,9 @@ header ul li {
 }
 
 .menu-footer .contact a {
-  font-size: 0.75rem;
+  font-size: 1.1rem;
   font-weight: 500;
+  margin-right: 100px;
 }
 
 /* toggle menu burger */
@@ -461,12 +453,25 @@ section.auto .container {
 .auto .auto-col-two {
   position: relative;
   width: 75%;
+  padding: 20px;
 }
 
-.auto .embla-img-wrap {
-  height: 600px;
-  width: 300px;
+.embla {
+  overflow: hidden;
 }
+.embla__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 40%; /* Each slide covers 80% of the viewport */
+}
+.embla__slide {
+  flex: 0 0 400px; /* Slide covers 200px of the viewport */
+}
+
+.embla h3{
+  font-size: 1.3rem;
+}
+
 
 /* prefooter section */
 
@@ -545,7 +550,10 @@ section.we-do .img-wrap {
   position: relative;
   overflow: hidden;
   padding: 20px 20px 20px 0;
-  height: 500px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 50px;
 }
 
 section.we-do .we-do-box {
@@ -568,7 +576,7 @@ section.we-do img {
 /* text default layout */
 
 .text {
-  padding: 200px 0 150px 0;
+  padding: 250px 0 180px 0;
   background-color: var(--white);
   z-index: 1;
 }
