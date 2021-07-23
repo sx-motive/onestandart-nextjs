@@ -6,6 +6,21 @@ function SectionPrefooter() {
   return (
     <section data-scroll-section className="prefooter">
       <div className="container">
+
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+
+
         <div className="prefooter-col">
           <h3>Оставьте заявку на подключение</h3>
           <p>Оставьте заявку и менеджер перезвонит уже через 30 минут!</p>
