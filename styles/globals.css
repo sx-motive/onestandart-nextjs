@@ -431,6 +431,13 @@ section.page h1 {
   opacity: 0.4;
 }
 
+/* success */
+
+section.success {
+  padding: 250px 0 100px 0;
+  text-align: center;
+}
+
 /* auto section */
 
 section.auto {
