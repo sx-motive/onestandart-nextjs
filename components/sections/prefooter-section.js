@@ -6,32 +6,18 @@ function SectionPrefooter() {
   return (
     <section data-scroll-section className="prefooter">
       <div className="container">
-
-<form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
-
-
         <div className="prefooter-col">
           <h3>Оставьте заявку на подключение</h3>
           <p>Оставьте заявку и менеджер перезвонит уже через 30 минут!</p>
-          <form>
-            <input type="text" placeholder="Имя и Фамилия" />
-            <input type="tel" placeholder="Номер телефона" />
+          <form method="POST" action="/success" data-netlify="true">
+            <input type="hidden" name="form-name" value="Заявка с сайта" />
+            <input type="text" name="Имя" id="yourname" placeholder="Имя и Фамилия" />
+            <input type="tel" name="Телефон" id="phone" placeholder="Номер телефона" />
             <input
-              type="tel"
+              type="text" name="Стаж по ВУ"
               placeholder="Стаж по водительскому удостоверению"
             />
-            <a data-magnetic type="submit" className="btn -fullsolid">
+            <a data-magnetic type="submit" className="btn -skew -outline" cursor="-color-white">
               <span data-text="Отправить заявку">Отправить заявку</span>
 
               <div className="ripple">
