@@ -1,18 +1,120 @@
 import React from "react";
-import SectionImgFull from "../components/sections/image-full-section";
+import Image from "next/image";
 
-function Arenda() {
+export const getStaticProps = async () => {
+  const res = await fetch(
+    "https://my-json-server.typicode.com/sx-motive/data/cars"
+  );
+  const data = await res.json();
+
+  return {
+    props: { cars: data },
+  };
+};
+
+const Arenda = ({ cars }) => {
   return (
     <>
-      <section data-scroll-section className="text page">
+      <section data-scroll-section className="text">
         <div className="container">
-          <h1>Аренда автомобиля в таксопарке</h1>
-          <p>Аренда авто от эконом до комфорт класса.</p>
+          <div className="wrapper">
+            <h3>Аренда автомобиля</h3>
+            <p>Ниже контент страницы аренда автомобиля</p>
+          </div>
         </div>
       </section>
-      <SectionImgFull img="/images/06.png" alt="Работа в такси" />
+
+      <section data-scroll-section className="arenda">
+        <div className="container">
+          {cars.map((car) => (
+            <div key={car.id} className="arenda-box">
+              <div className="arenda-images-wrapper">
+                <div className="arenda-img-wrap">
+                  <Image
+                    loading="eager"
+                    data-cursor-text="Забронировать авто"
+                    data-cursor="-color-accent-lilac"
+                    data-scroll
+                    data-scroll-speed="-2"
+                    layout="fill"
+                    src={car.img}
+                    alt={car.title}
+                  />
+                </div>
+                <div className="arenda-img-wrap">
+                  <Image
+                    loading="eager"
+                    data-cursor-text="Забронировать авто"
+                    data-cursor="-color-accent-lilac"
+                    data-scroll
+                    data-scroll-speed="2"
+                    layout="fill"
+                    src={car.img2}
+                    alt={car.title}
+                  />
+                </div>
+              </div>
+              <div className="arenda-meta-wrapper">
+                <div className="arenda-meta-col">
+                  <h4>{car.title}</h4>
+                  <span className="arenda-price"></span>
+                  <button
+                    data-magnetic
+                    className="btn -skew -outline -form"
+                    cursor="-color-white"
+                  >
+                    <span data-text="Забронировать авто">
+                      Забронировать авто
+                    </span>
+
+                    <div className="ripple">
+                      <div className="ripple-span"></div>
+                    </div>
+                  </button>
+                </div>
+                <div className="arenda-meta-col">
+                  <dl className="dl-inline">
+                    <dt className="dt-dotted">
+                      <span>Год выпуска </span>
+                    </dt>
+                    <dd>2018</dd>
+                  </dl>
+                  <dl className="dl-inline">
+                    <dt className="dt-dotted">
+                      <span>Коробка передач </span>
+                    </dt>
+                    <dd>автомат</dd>
+                  </dl>
+                  <dl className="dl-inline">
+                    <dt className="dt-dotted">
+                      <span>Кондиционер </span>
+                    </dt>
+                    <dd>есть</dd>
+                  </dl>
+                  <dl className="dl-inline">
+                    <dt className="dt-dotted">
+                      <span>Привод </span>
+                    </dt>
+                    <dd>полный</dd>
+                  </dl>
+                  <dl className="dl-inline">
+                    <dt className="dt-dotted">
+                      <span>Вид топлива </span>
+                    </dt>
+                    <dd>АИ-95</dd>
+                  </dl>
+                  <p>
+                    *Эксплуатация ТС должна быть строго в соответствии с его
+                    целевым назначением и только на территории г. Оренбурга
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
-}
+};
 
 export default Arenda;

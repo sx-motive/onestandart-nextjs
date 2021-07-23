@@ -25,22 +25,22 @@ function Outro() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/about">
                   <a className="btn -underline">О компании</a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/arenda">
                   <a className="btn -underline">Аренда авто</a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/rabota">
                   <a className="btn -underline">Работа в такси</a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/contacts">
                   <a className="btn -underline">Контакты</a>
                 </Link>
               </li>

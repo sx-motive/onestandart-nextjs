@@ -4,7 +4,7 @@ function About() {
       <section data-scroll-section className="text">
         <div className="container">
           <div className="wrapper">
-            <h3>Автопарк “СТАНДАРТ”</h3>
+            <h3>О таксопарке</h3>
             <p>
               Автопарк “СТАНДАРТ”- сертифицированный партнер Яндекс.Такси. Мы
               подключаем водителей к сервису, обучаем работе с приложением и

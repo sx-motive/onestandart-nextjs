@@ -12,8 +12,12 @@ function Nav() {
   function closeMenu() {
     const burger = document.getElementsByClassName("burger")[0];
     const menu = document.getElementsByClassName("menu")[0];
-    menu.classList.toggle("m-active");
-    burger.classList.toggle("m-active");
+
+    if (menu.classList.contains("m-active")) {
+      menu.classList.toggle("m-active");
+      burger.classList.toggle("m-active");
+    } else {
+    }
   }
 
   return (
@@ -25,6 +29,7 @@ function Nav() {
           </a>
         </Link>
       </li>
+
       <li onClick={closeMenu} data-cursor="-opaque">
         <Link href="/about">
           <a className="btn -skew">
@@ -32,6 +37,7 @@ function Nav() {
           </a>
         </Link>
       </li>
+
       <li onClick={closeMenu} data-cursor="-opaque">
         <Link href="/arenda">
           <a className="btn -skew" href="#">
@@ -39,8 +45,9 @@ function Nav() {
           </a>
         </Link>
       </li>
+
       <li onClick={closeMenu} data-cursor="-opaque">
-        <Link href="/tutorials">
+        <Link href="/rabota">
           <a className="btn -skew">
             <span data-text="Работа в такси">Работа в такси</span>
           </a>
@@ -48,9 +55,11 @@ function Nav() {
       </li>
 
       <li onClick={closeMenu} data-cursor="-opaque">
-        <a className="btn -skew" href="#">
-          <span data-text="Контакты">Контакты</span>
-        </a>
+        <Link href="/contacts">
+          <a className="btn -skew" href="#">
+            <span data-text="Контакты">Контакты</span>
+          </a>
+        </Link>
       </li>
     </ul>
   );
