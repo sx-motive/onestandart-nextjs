@@ -9,7 +9,7 @@ function SectionPrefooter() {
         <div className="prefooter-col">
           <h3>Оставьте заявку на подключение</h3>
           <p>Оставьте заявку и менеджер перезвонит уже через 30 минут!</p>
-          <form name="Заявки на подключение" method="POST" action="/success" data-netlify="true">
+          <form name="Заявки на подключение" method="POST" action="/success" data-netlify="true" data-netlify-recaptcha="true">
             <input type="hidden" name="form-name" value="Заявка на подключение" />
             <input type="text" name="Имя" id="yourname" placeholder="Имя и Фамилия" />
             <input type="tel" name="Телефон" id="phone" placeholder="Номер телефона" />
@@ -17,7 +17,8 @@ function SectionPrefooter() {
               type="text" name="Стаж по ВУ"
               placeholder="Стаж по водительскому удостоверению"
             />
-            <button data-magnetic type="submit" className="btn -skew -outline" cursor="-color-white">
+            <div data-netlify-recaptcha="true"></div>
+            <button data-magnetic type="submit" className="btn -skew -outline -form" cursor="-color-white">
               <span data-text="Отправить заявку">Отправить заявку</span>
 
               <div className="ripple">

@@ -5,6 +5,15 @@
   display: inline-block;
 }
 
+/* button form */
+
+.-form {
+  cursor: pointer;
+  font-family: "Activist", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
 /* button underline */
 
 .-underline {
