@@ -127,6 +127,9 @@
     display: none;
   }
 
+  .text-scroll {
+    display: none;
+  }
   .text-scroll-wrap {
     position: relative;
     left: -300%;
