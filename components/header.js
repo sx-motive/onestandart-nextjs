@@ -9,7 +9,20 @@ function Header() {
           <span data-text="Твой таксопарк">Onestandart</span>
         </a>
       </Link>
-      <Nav />
+      <div className="right-header">
+        <Nav />
+        <button
+          data-magnetic
+          className="btn -skew -outline -form"
+          cursor="-color-white"
+        >
+          <span data-text="Обратный звонок">Обратный звонок</span>
+
+          <div className="ripple">
+            <div className="ripple-span"></div>
+          </div>
+        </button>
+      </div>
     </header>
   );
 }

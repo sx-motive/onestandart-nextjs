@@ -1,5 +1,6 @@
 // dependencies import
 import Image from "next/image";
+import Link from "next/link";
 
 // components import
 import SectionImgText from "../components/sections/image-text-section";
@@ -8,7 +9,7 @@ import SectionText from "../components/sections/text-section";
 import SectionPrefooter from "../components/sections/prefooter-section";
 import Carousel from "../components/carousel";
 
-export default function Home() {
+function Home() {
   return (
     <>
       <SectionText
@@ -74,17 +75,122 @@ export default function Home() {
       />
 
       <section data-scroll-section className="auto">
+        <div data-scroll data-scroll-speed="2" className="img-wrap1">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/c1.png"
+            alt="работа в такси"
+          />
+        </div>
+        <div data-scroll data-scroll-speed="2" className="img-wrap2">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/in.jpg"
+            alt="работа в такси"
+          />
+        </div>
+        <div data-scroll data-scroll-speed="2" className="img-wrap3">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/c1.png"
+            alt="работа в такси"
+          />
+        </div>
+        <div data-scroll data-scroll-speed="2" className="img-wrap4">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/in.jpg"
+            alt="работа в такси"
+          />
+        </div>
+        <div data-scroll data-scroll-speed="2" className="img-wrap5">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/c1.png"
+            alt="работа в такси"
+          />
+        </div>
+        <div data-scroll data-scroll-speed="2" className="img-wrap6">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/in.jpg"
+            alt="работа в такси"
+          />
+        </div>
+
+        <div data-scroll data-scroll-speed="2" className="img-wrap7">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/in.jpg"
+            alt="работа в такси"
+          />
+        </div>
+
+        <div data-scroll data-scroll-speed="2" className="img-wrap8">
+          <Image
+            loading="eager"
+            data-cursor-text="Explore service"
+            data-cursor="-color-accent-lilac"
+            layout="fill"
+            objectFit="contain"
+            src="/images/cars/c1.png"
+            alt="работа в такси"
+          />
+        </div>
+
         <div className="container">
-          <div className="auto-col-one">
+          <div className="text-wrap">
             <h3>Автомобили в аренду</h3>
             <p>
               Взять автомобиль в аренду, дешевле и быстрее, чем покупать новый.
               ТО и обслуживание- ответственность парка. Чтобы взять автомобиль в
               аренду, оставьте заявку на сайте, или позвоните нам.
             </p>
-          </div>
-          <div className="auto-col-two">
-            <Carousel />
+            <Link href="/arenda">
+              <a>
+                <button
+                  data-magnetic
+                  className="btn -skew -outline -form"
+                  cursor="-color-white"
+                >
+                  <span data-text="Посмотреть все авто">
+                    Посмотреть все авто
+                  </span>
+
+                  <div className="ripple">
+                    <div className="ripple-span"></div>
+                  </div>
+                </button>
+              </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -145,6 +251,7 @@ export default function Home() {
                 alt="работа в такси"
               />
             </div>
+
             <h5>Аренда автомобиля</h5>
             <p>
               В нашем автопарке вы можете арендовать автомобиль на выгодных
@@ -157,3 +264,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;

@@ -212,6 +212,11 @@
   color: var(--black);
 }
 
+section.auto span::after,
+section.auto .-skew span::before {
+  color: var(--white);
+}
+
 .-skew:hover span {
   transform: translateY(-105%);
 }

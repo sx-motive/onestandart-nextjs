@@ -6,11 +6,11 @@ import Script from "next/script";
 import Layout from "../components/layout";
 
 // styles import
+import "../styles/fonts.css";
 import "../styles/globals.css";
 import "../styles/cursor.css";
 import "../styles/buttons.css";
 import "../styles/breakpoints.css";
-import "../styles/fonts.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
