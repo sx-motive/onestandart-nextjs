@@ -38,10 +38,10 @@
 
 @media screen and (max-width: 800px) {
   :root {
-    --p-fs: 14px;
+    --p-fs: 15px;
     --h1-fs: 1rem;
-    --h2-fs: 5rem;
-    --h3-fs: 4rem;
+    --h2-fs: 4rem;
+    --h3-fs: 3.1rem;
     --h4-fs: 4rem;
     --h5-fs: 1.7rem;
     --h6-fs: 1rem;
@@ -49,6 +49,89 @@
 
   .container {
     padding: 0 30px;
+  }
+
+  /* menu */
+
+  .menu .logo {
+    display: none;
+  }
+
+  .menu .menu-wrapper-bg {
+    padding-bottom: 40px;
+  }
+  .menu-wrapper {
+    align-items: flex-start;
+  }
+
+  .menu-main {
+    position: relative;
+    padding: 40px 30px 0 30px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .menu-col {
+    position: relative;
+    padding: 0px;
+  }
+
+  .menu-col-title {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 20px;
+  }
+  .menu-col:nth-child(1) {
+    width: 100%;
+    display: none;
+  }
+
+  .menu-col:nth-child(2) {
+    margin: 0 0 50px 0;
+    width: 100%;
+    text-align: left;
+  }
+  .menu .social-list ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu .social-list li a {
+    font-size: 0.7rem;
+    padding: 15px 0;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .menu .nav-list li {
+    font-size: 2.6rem;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  .menu-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu-footer .menu-col-title {
+    margin-bottom: 20px;
+  }
+
+  .menu-footer .contact a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-bottom: 30px;
   }
 
   /* header */
@@ -297,5 +380,15 @@
     width: 100%;
     margin: 10px 0;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu .nav-list li {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+    line-height: 1.15;
+    margin-bottom: 20px;
   }
 }
