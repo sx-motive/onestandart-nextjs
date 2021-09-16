@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       scroll = new locomotiveModule.default({
         el: document.querySelector("[data-scroll-container]"),
         smooth: true,
-        smoothMobile: false,
+        smoothMobile: true,
         resetNativeScroll: true,
       });
     });

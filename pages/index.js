@@ -1,17 +1,45 @@
 // dependencies import
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 // components import
 import SectionImgText from "../components/sections/image-text-section";
 import SectionImgFull from "../components/sections/image-full-section";
 import SectionText from "../components/sections/text-section";
 import SectionPrefooter from "../components/sections/prefooter-section";
-import Carousel from "../components/carousel";
 
 function Home() {
   return (
     <>
+      <Head>
+        <title>
+          Работа для водителей такси в Оренбурге | Таксопарк Стандарт
+        </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Таксопарк Стандарт приглашает на работу водителей такси с возможностью аренды авто в Оренбурге. Быстрое подключение, высокий заработок."
+        />
+        <meta
+          name="keywords"
+          content="таксопарк стандарт, работа в такси, аренда автомобиля, аренда авто, работа в яндекс такси, работа водителем"
+        />
+        <meta name="author" content="motive" />
+
+        <meta
+          property="og:title"
+          content="Работа для водителей такси в Оренбурге | Таксопарк Стандарт"
+        />
+        <meta
+          property="og:description"
+          content="Таксопарк Стандарт приглашает на работу водителей такси с возможностью аренды авто в Оренбурге. Быстрое подключение, высокий заработок."
+        />
+        <meta property="og:image" content="/og-title.png" />
+        <meta property="og:type" content="site" />
+        <meta property="og:url" content="https://onestandart.ru" />
+      </Head>
+
       <SectionText
         title="Работа для водителей такси в Оренбурге"
         description="Автопарк “СТАНДАРТ” приглашает на работу водителей такси, как на личном авто, так и автомобили компании. Мы гарантируем выгодные условия аренды и  высокий зароботок. Оставьте заявку и менеджер перезвонит Вам."
@@ -71,7 +99,7 @@ function Home() {
         }
         btntitle="Оставить заявку"
         btnlink="/contacts"
-        img="/images/04.jpg"
+        img="/images/011.jpg"
       />
 
       <section data-scroll-section className="auto">

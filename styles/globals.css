@@ -1022,6 +1022,29 @@ section.title h1 {
     hue-rotate(0deg);
 }
 
+/* contacts section */
+
+section.contacts-title {
+  padding-bottom: 50px;
+}
+
+section.contacts .box {
+  position: relative;
+  width: 100%;
+  padding: 40px 0;
+  border-bottom: 1px dashed rgb(170, 170, 170);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.contacts .box span {
+  font-family: "Activist", sans-serif;
+  font-size: 4rem;
+  width: 100%;
+  margin: 20px 0;
+  text-align: right;
+}
+
 /* steps section */
 
 section.steps {

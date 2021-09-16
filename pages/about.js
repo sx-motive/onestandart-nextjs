@@ -1,3 +1,5 @@
+import SectionImgFull from "../components/sections/image-full-section";
+
 function About() {
   return (
     <>
@@ -17,6 +19,8 @@ function About() {
           </div>
         </div>
       </section>
+
+      <SectionImgFull img="/images/010.jpg" alt="Работа в такси" />
     </>
   );
 }
