@@ -257,11 +257,12 @@
   transform: scale(0) rotate(10deg);
   opacity: 0;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 20px;
   text-align: center;
   letter-spacing: -0.01em;
   transition: opacity 0.4s, transform 0.3s;
+  font-family: "Activist", sans-serif;
 }
 
 @supports (mix-blend-mode: exclusion) {
@@ -307,7 +308,7 @@
 
 .ht-cursor.-text:before {
   opacity: 0.85;
-  transform: scale(1.7);
+  transform: scale(4);
 }
 
 .ht-cursor.-text .ht-cursor-text {

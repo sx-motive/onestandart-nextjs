@@ -381,6 +381,118 @@
     margin: 10px 0;
     text-align: left;
   }
+
+  section.arenda {
+  }
+
+  section.arenda .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .arenda .arenda-box {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+
+  .arenda .arenda-images-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .arenda .arenda-meta-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 0px 0px 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .arenda .btn.-outline {
+    margin: 0 0 50px 0;
+    width: 100%;
+  }
+
+  .arenda .arenda-meta-col {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .arenda .arenda-meta-col p {
+    font-size: 0.7rem;
+    opacity: 0.8;
+    margin-top: 50px;
+  }
+
+  dl {
+    position: relative;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    padding: 5px 0;
+  }
+
+  dl-inline > dt {
+    clear: left;
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+  }
+  .dt-dotted {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .dt-dotted > span {
+    position: relative;
+  }
+
+  .dt-dotted > span:after {
+    color: #000;
+    content: "...................................................................................";
+    left: 100%;
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    opacity: 0.5;
+  }
+
+  dd {
+    display: block;
+    margin-inline-start: 0;
+  }
+
+  .arenda .arenda-meta-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 140%;
+    bottom: 0;
+    left: -15%;
+    background-color: #f4f4f4;
+    z-index: -1;
+  }
+
+  .arenda .arenda-box h4 {
+    font-size: 3rem;
+  }
+
+  .arenda .arenda-img-wrap {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 10px 0;
+  }
 }
 
 @media screen and (max-width: 350px) {

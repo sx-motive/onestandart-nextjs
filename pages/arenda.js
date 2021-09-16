@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 
 export const getStaticProps = async () => {
   const res = await fetch(
@@ -15,14 +16,39 @@ export const getStaticProps = async () => {
 const Arenda = ({ cars }) => {
   return (
     <>
+      <Head>
+        <title>Аренда автомобиля в Оренбурге | Таксопарк Стандарт</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Таксопарк Стандарт предлагает уникальную возможность аренды автомобиля в Оренбурге"
+        />
+        <meta
+          name="keywords"
+          content="таксопарк стандарт, аренда автомобиля, аренда авто, авто для работы, арендовать авто, аренда гранта, аренда датсун, аренда для работы в такси"
+        />
+        <meta name="author" content="motive" />
+
+        <meta
+          property="og:title"
+          content="Аренда автомобиля в Оренбурге | Таксопарк Стандарт"
+        />
+        <meta
+          property="og:description"
+          content="Таксопарк Стандарт предлагает уникальную возможность аренды автомобиля в Оренбурге"
+        />
+        <meta property="og:image" content="/og-title.png" />
+        <meta property="og:type" content="site" />
+        <meta property="og:url" content="https://onestandart.ru" />
+      </Head>
       <section data-scroll-section className="text">
         <div className="container">
           <div className="wrapper">
             <h3>Аренда автомобиля</h3>
             <p>
               Взять автомобиль в аренду, дешевле и быстрее, чем покупать новый.
-              ТО и обслуживание- ответственность парка. Чтобы взять автомобиль в
-              аренду, оставьте заявку на сайте, или позвоните нам.
+              ТО и обслуживание - ответственность парка. Чтобы взять автомобиль
+              в аренду, оставьте заявку на сайте, или позвоните нам.
             </p>
           </div>
         </div>

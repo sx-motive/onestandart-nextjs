@@ -106,7 +106,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap1">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -117,7 +117,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap2">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -128,7 +128,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap3">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -139,7 +139,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap4">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -150,7 +150,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap5">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -161,7 +161,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap6">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -173,7 +173,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap7">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -185,7 +185,7 @@ function Home() {
         <div data-scroll data-scroll-speed="2" className="img-wrap8">
           <Image
             loading="eager"
-            data-cursor-text="Explore service"
+            data-cursor-text="таксопарк стандарт"
             data-cursor="-color-accent-lilac"
             layout="fill"
             objectFit="contain"
@@ -232,7 +232,7 @@ function Home() {
             <div className="img-wrap">
               <Image
                 loading="eager"
-                data-cursor-text="Explore service"
+                data-cursor-text="таксопарк стандарт"
                 data-cursor="-color-accent-lilac"
                 layout="fill"
                 data-scroll
@@ -251,7 +251,7 @@ function Home() {
             <div className="img-wrap">
               <Image
                 loading="eager"
-                data-cursor-text="Explore service"
+                data-cursor-text="таксопарк стандарт"
                 data-cursor="-color-accent-lilac"
                 layout="fill"
                 data-scroll
@@ -270,7 +270,7 @@ function Home() {
             <div className="img-wrap">
               <Image
                 loading="eager"
-                data-cursor-text="Explore service"
+                data-cursor-text="таксопарк стандарт"
                 data-cursor="-color-accent-lilac"
                 layout="fill"
                 data-scroll

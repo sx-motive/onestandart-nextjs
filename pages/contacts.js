@@ -1,8 +1,34 @@
 import React from "react";
+import Head from "next/head";
 
 function Contacts() {
   return (
     <>
+      <Head>
+        <title>Контакты | Таксопарк Стандарт</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Таксопарк Стандарт приглашает на работу водителей такси с возможностью аренды авто в Оренбурге. Быстрое подключение, высокий заработок."
+        />
+        <meta
+          name="keywords"
+          content="таксопарк стандарт, работа в такси, аренда автомобиля, аренда авто, работа в яндекс такси, работа водителем"
+        />
+        <meta name="author" content="motive" />
+
+        <meta
+          property="og:title"
+          content="Работа для водителей такси в Оренбурге | Таксопарк Стандарт"
+        />
+        <meta
+          property="og:description"
+          content="Таксопарк Стандарт приглашает на работу водителей такси с возможностью аренды авто в Оренбурге. Быстрое подключение, высокий заработок."
+        />
+        <meta property="og:image" content="/og-title.png" />
+        <meta property="og:type" content="site" />
+        <meta property="og:url" content="https://onestandart.ru" />
+      </Head>
       <section data-scroll-section className="text contacts-title">
         <div className="container">
           <div className="wrapper">
