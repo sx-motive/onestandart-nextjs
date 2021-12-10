@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 import Nav from "./nav";
 
 function Outro() {
@@ -59,7 +59,13 @@ function Outro() {
           <div className="outro-bottom-left">
             <Link href="https://www.behance.net/motive">
               <a>
-                <img src="/motive-logo.svg" alt="Denis Kunitsyn" />
+                <Image
+                  priority
+                  src="/motive-logo.svg"
+                  alt="Denis Kunitsyn"
+                  width=" 150px"
+                  height="100px"
+                />
               </a>
             </Link>
           </div>
