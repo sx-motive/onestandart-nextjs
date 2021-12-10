@@ -14,7 +14,7 @@ function SectionImgText(props) {
         <div className="img-col">
           <div className="img-split-wrap">
             <Image
-              loading="eager"
+              priority
               data-cursor-text="таксопарк стандарт"
               data-cursor="-color-accent-lilac"
               layout="fill"

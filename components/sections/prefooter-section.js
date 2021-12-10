@@ -60,7 +60,7 @@ function SectionPrefooter() {
         <div className="prefooter-col">
           <div className="img-wrap">
             <Image
-              loading="eager"
+              priority
               data-cursor-text="таксопарк стандарт"
               data-cursor="-color-accent-lilac"
               layout="fill"

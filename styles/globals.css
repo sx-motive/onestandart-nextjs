@@ -908,7 +908,7 @@ section.we-do img {
   font-size: 0.5rem;
   opacity: 0.8;
   font-weight: 400;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 60px;
 }
 
@@ -1140,7 +1140,9 @@ html.has-scroll-dragging {
 }
 
 .has-scroll-smooth [data-scroll-container] {
+  position: fixed;
   min-height: 100vh;
+  width: 100%;
 }
 
 [data-scroll-direction="horizontal"] [data-scroll-container] {

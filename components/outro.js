@@ -57,11 +57,9 @@ function Outro() {
         </div>
         <div className="outro-bottom">
           <div className="outro-bottom-left">
-            <Link href="https://motive.cafe">
-              <a className="btn -underline -skew">
-                <span data-text="Development and promotion by MOTIVE">
-                  Development and promotion by MOTIVE
-                </span>
+            <Link href="https://www.behance.net/motive">
+              <a>
+                <img src="/motive-logo.svg" alt="Denis Kunitsyn" />
               </a>
             </Link>
           </div>

@@ -6,7 +6,7 @@ function SectionImgFull(props) {
   return (
     <section data-scroll-section className="img-full">
       <Image
-        loading="eager"
+        priority
         layout="fill"
         data-scroll
         data-scroll-speed="-4"

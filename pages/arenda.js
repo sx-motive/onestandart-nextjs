@@ -61,7 +61,7 @@ const Arenda = ({ cars }) => {
               <div className="arenda-images-wrapper">
                 <div className="arenda-img-wrap">
                   <Image
-                    loading="eager"
+                    priority
                     data-cursor-text="Забронировать авто"
                     data-cursor="-color-accent-lilac"
                     data-scroll
@@ -73,7 +73,7 @@ const Arenda = ({ cars }) => {
                 </div>
                 <div className="arenda-img-wrap">
                   <Image
-                    loading="eager"
+                    priority
                     data-cursor-text="Забронировать авто"
                     data-cursor="-color-accent-lilac"
                     data-scroll
