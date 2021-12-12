@@ -11,6 +11,7 @@ import "../styles/globals.css";
 import "../styles/cursor.css";
 import "../styles/buttons.css";
 import "../styles/breakpoints.css";
+import "../styles/gridscroll.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       scroll = new locomotiveModule.default({
         el: document.querySelector("[data-scroll-container]"),
         smooth: true,
+        lerp: 0.03,
         smoothMobile: true,
         resetNativeScroll: true,
       });

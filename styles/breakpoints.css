@@ -321,41 +321,11 @@
     padding: 20vh 0;
   }
 
-  section.auto .img-wrap1 {
-    position: relative;
-    top: -330px;
-    left: 0;
-    height: 300px;
-    width: 100%;
-  }
-
-  section.auto .img-wrap2 {
-    display: none;
-  }
-  section.auto .img-wrap3 {
-    display: none;
-  }
-  section.auto .img-wrap4 {
-    display: none;
-  }
-  section.auto .img-wrap5 {
-    display: none;
-  }
-  section.auto .img-wrap6 {
-    display: none;
-  }
-  section.auto .img-wrap7 {
-    display: none;
-  }
-  section.auto .img-wrap8 {
-    display: none;
-  }
-
   section.auto .text-wrap {
     position: relative;
     width: 100%;
     text-align: left;
-    top: -300px;
+    top: 0px;
     margin: 0 auto;
   }
 

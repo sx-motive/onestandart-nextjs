@@ -102,98 +102,11 @@ function Home() {
         img="/images/011.jpg"
       />
 
-      <section data-scroll-section className="auto">
-        <div data-scroll data-scroll-speed="2" className="img-wrap1">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/c1.png"
-            alt="работа в такси"
-          />
-        </div>
-        <div data-scroll data-scroll-speed="2" className="img-wrap2">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/in.jpg"
-            alt="работа в такси"
-          />
-        </div>
-        <div data-scroll data-scroll-speed="2" className="img-wrap3">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/c1.png"
-            alt="работа в такси"
-          />
-        </div>
-        <div data-scroll data-scroll-speed="2" className="img-wrap4">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/in.jpg"
-            alt="работа в такси"
-          />
-        </div>
-        <div data-scroll data-scroll-speed="2" className="img-wrap5">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/c1.png"
-            alt="работа в такси"
-          />
-        </div>
-        <div data-scroll data-scroll-speed="2" className="img-wrap6">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/in.jpg"
-            alt="работа в такси"
-          />
-        </div>
-
-        <div data-scroll data-scroll-speed="2" className="img-wrap7">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/in.jpg"
-            alt="работа в такси"
-          />
-        </div>
-
-        <div data-scroll data-scroll-speed="2" className="img-wrap8">
-          <Image
-            loading="eager"
-            data-cursor-text="таксопарк стандарт"
-            data-cursor="-color-accent-lilac"
-            layout="fill"
-            objectFit="contain"
-            src="/images/cars/c1.png"
-            alt="работа в такси"
-          />
-        </div>
-
+      <section
+        data-scroll-section
+        className="tiles tiles--rotated auto"
+        id="grid2"
+      >
         <div className="container">
           <div className="text-wrap">
             <h3>Автомобили в аренду</h3>
@@ -219,6 +132,73 @@ function Home() {
                 </button>
               </a>
             </Link>
+          </div>
+        </div>
+        <div className="tiles__wrap">
+          <div
+            className="tiles__line"
+            data-scroll
+            data-scroll-speed="2"
+            data-scroll-direction="horizontal"
+          >
+            <div className="tiles__line-img"></div>
+            <div className="tiles__line-img"></div>
+            <div className="tiles__line-img"></div>
+            <div className="tiles__line-img n1"></div>
+            <div className="tiles__line-img n2"></div>
+            <div className="tiles__line-img n3"></div>
+          </div>
+          <div
+            className="tiles__line"
+            data-scroll
+            data-scroll-speed="-2"
+            data-scroll-direction="horizontal"
+          >
+            <div className="tiles__line-img"></div>
+            <div className="tiles__line-img n4"></div>
+            <div className="tiles__line-img n5"></div>
+            <div className="tiles__line-img n6"></div>
+            <div className="tiles__line-img n7"></div>
+            <div className="tiles__line-img n8"></div>
+          </div>
+          <div
+            className="tiles__line"
+            data-scroll
+            data-scroll-speed="2"
+            data-scroll-direction="horizontal"
+          >
+            <div className="tiles__line-img n9"></div>
+            <div className="tiles__line-img n10"></div>
+            <div className="tiles__line-img n11"></div>
+            <div className="tiles__line-img n12"></div>
+            <div className="tiles__line-img n13"></div>
+            <div className="tiles__line-img n14"></div>
+          </div>
+          <div
+            className="tiles__line"
+            data-scroll
+            data-scroll-speed="-2"
+            data-scroll-direction="horizontal"
+          >
+            <div className="tiles__line-img n15"></div>
+            <div className="tiles__line-img n16"></div>
+            <div className="tiles__line-img n17"></div>
+            <div className="tiles__line-img n18"></div>
+            <div className="tiles__line-img n19"></div>
+            <div className="tiles__line-img"></div>
+          </div>
+          <div
+            className="tiles__line"
+            data-scroll
+            data-scroll-speed="2"
+            data-scroll-direction="horizontal"
+          >
+            <div className="tiles__line-img"></div>
+            <div className="tiles__line-img n20"></div>
+            <div className="tiles__line-img n21"></div>
+            <div className="tiles__line-img n22"></div>
+            <div className="tiles__line-img"></div>
+            <div className="tiles__line-img"></div>
           </div>
         </div>
       </section>
